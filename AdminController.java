@@ -54,7 +54,7 @@ public class AdminController {
  		return new ModelAndView("admin","studentList",studentList);
  	}
     
-    @RequestMapping(value = "/saveStudent")
+    @RequestMapping(value = "/fdfgd")
  	public String saveStudent(HttpServletRequest req,HttpServletResponse res) {
  		System.out.println("AdminController.saveStudent()");
  		
