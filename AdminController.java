@@ -7,16 +7,15 @@ import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-dgmkgdm
-df 
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
 import com.precise.model.Admin;
 import com.precise.model.Forum;
 import com.precise.model.Inbox;
 import com.precise.model.SessionBean;
 import com.precise.service.AdminService;
-ort com.precise.model.Forum;
-import com.precise.model.Inbox;
-imp
+
 @Controller
 public class AdminController {
      @Autowired
@@ -27,6 +26,8 @@ public class AdminController {
 		int roleId,userid;
 		try
 		{
+
+dfmnhkmnk
 		SessionBean sbean=(SessionBean)req.getSession().getAttribute("sessionBean");
 		 userid=sbean.getUserID();
 		 roleId=sbean.getRoleID();
